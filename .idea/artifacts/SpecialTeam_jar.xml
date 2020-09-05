@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SpecialTeam:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpecialTeam_jar</output-path>
+    <root id="archive" name="SpecialTeam.jar">
+      <element id="module-output" name="SpecialTeam" />
+    </root>
+  </artifact>
+</component>
