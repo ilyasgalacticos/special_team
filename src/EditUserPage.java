@@ -52,7 +52,7 @@ public class EditUserPage extends JPanel {
 
         save = new ApplicationButton("SAVE");
         save.setSize(100,30);
-        save.setLocation(60,370);
+        save.setLocation(65,370);
         add(save);
 
         save.addActionListener(e->{
@@ -76,7 +76,7 @@ public class EditUserPage extends JPanel {
 
         back = new ApplicationButton("BACK");
         back.setSize(100,30);
-        back.setLocation(190,370);
+        back.setLocation(200,370);
         add(back);
 
         back.addActionListener(e -> {
@@ -88,7 +88,7 @@ public class EditUserPage extends JPanel {
         delete = new ApplicationButton("DELETE");
         delete.setForeground(Color.RED);
         delete.setSize(100,30);
-        delete.setLocation(320,370);
+        delete.setLocation(335,370);
         add(delete);
 
         delete.addActionListener(e -> {
